@@ -1,0 +1,47 @@
+baseURL = "https://mzfr.me"
+languageCode = "en-us"
+title = "mzfr"
+theme = "hugo-coder"
+
+[params]
+  author = "Mehtab Zafar"
+  info = "Backend Developer & Bounty hunter"
+  description = "mzfr home"
+  keywords = "blog, developer, personal"
+  avatarurl = "images/avatar.jpg"
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/mzfr"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/0xmzfr"
+
+
+[[menu.main]]
+  name = "blog"
+  weight = 1
+  url  = "https://blog.mzfr.me/"
+[[menu.main]]
+  name = "about"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "resume"
+  weight = 3
+  url = "https://raw.githubusercontent.com/mzfr/resume/master/Mehtab_Zafar_resume.pdf"
+[[menu.main]]
+  name = "notes"
+  weight = 4
+  url  = "https://wiki.mzfr.me"
+[[menu.main]]
+  name = "CTFs"
+  weight = 5
+  url  = "https://blog.mzfr.me/ctf/"
